@@ -11,6 +11,7 @@ This project analyzes Statistical Area Level 2 (SA2) regions in Greater Sydney u
 ## Setup
 
 1. Install PostgreSQL and PostGIS:
+
    ```bash
    # For macOS using Homebrew
    brew install postgresql
@@ -18,6 +19,7 @@ This project analyzes Statistical Area Level 2 (SA2) regions in Greater Sydney u
    ```
 
 2. Create a PostgreSQL database:
+
    ```bash
    createdb sydney_analysis
    psql sydney_analysis
@@ -25,6 +27,7 @@ This project analyzes Statistical Area Level 2 (SA2) regions in Greater Sydney u
    ```
 
 3. Install Python dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -43,6 +46,7 @@ This project analyzes Statistical Area Level 2 (SA2) regions in Greater Sydney u
 
 1. Download the SA2 digital boundaries from the ABS website
 2. Place all data files in the project directory:
+
    - SA2 shapefile
    - Businesses.csv
    - Stops.txt
